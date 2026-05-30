@@ -1,6 +1,7 @@
-package be.datamining.exception;
+package com.example.taphoamini.exception;
 
-import be.datamining.dto.request.ApiResponse;
+import com.example.taphoamini.dto.response.ApiResponse;
+import com.example.taphoamini.dto.response.ApiResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;

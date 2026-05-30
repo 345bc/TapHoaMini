@@ -1,4 +1,4 @@
-package be.datamining.dto.request;
+package com.example.taphoamini.dto.response;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;

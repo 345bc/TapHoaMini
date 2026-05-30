@@ -1,4 +1,4 @@
-package be.datamining.exception;
+package com.example.taphoamini.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

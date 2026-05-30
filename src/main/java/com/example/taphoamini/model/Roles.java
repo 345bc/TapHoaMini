@@ -1,4 +1,4 @@
-package be.datamining.model;
+package com.example.taphoamini.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -12,7 +12,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "Roles")
+@Table(name = "roles")
 public class Roles {
     @Id
     private Integer id;

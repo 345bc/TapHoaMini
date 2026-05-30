@@ -1,4 +1,4 @@
-package be.datamining.enums;
+package com.example.taphoamini.enums;
 
 public enum DiscountStatus {
     ACTIVE,

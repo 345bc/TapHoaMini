@@ -1,10 +1,11 @@
-package be.datamining.model;
+package com.example.taphoamini.model;
 
-import be.datamining.enums.Role;
+import com.example.taphoamini.enums.Role;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.*;
+import lombok.experimental.FieldDefaults;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.Nationalized;
 
@@ -19,8 +20,7 @@ import java.util.Set;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "Users", schema = "dbo")
-//@EntityListeners(AuditingEntityListener.class)
+@Table(name = "users", schema = "dbo")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -50,7 +50,7 @@ public class User {
     private String passwordHash;
 
     @CreationTimestamp
-    @Column(name = "CreatedAt", nullable = false, updatable = false)
+    @Column(name = "created_at", nullable = false, updatable = false)
     @NotNull
     private LocalDateTime createdAt;
 
